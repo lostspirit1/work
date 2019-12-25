@@ -1,0 +1,31 @@
+.containerWrap {
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  margin: auto;
+}
+.slider{
+  max-height: 500px;
+}
+.buttonBack {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%);
+}
+
+.buttonNext {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translateY(-50%);
+}
+
+
+.dotGroup {
+  text-align: center;
+}
+
+.innterClass {
+  height: 500px !important;
+}
